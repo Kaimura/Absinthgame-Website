@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Absinth - Home</title>
+        <!-- <base target="_blank"> -->
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+        <meta name="keywords" content="absinth, horror, psychohorror, indie">
+        <meta name="description" content="Absinth is a psychological Horror-Thriller Experience designed for PC by the indie developer studio blackHound Studios">
+        <meta name="author" content="blackHound Studios">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- <meta http-equiv="expires" content="Wed, 21 Nov 2018 08:00:00 GMT"> -->
+
+        <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+        <!-- <link rel="apple-touch-icon" sizes="180x180 152x152 144x144 120x120 114x114 76x76 72x72 60x60 57x57" href="apple-icon-180x180.png"> -->
+
+        <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"> 
+        <!-- <link rel="icon" type="image/png" sizes="192x192 96x96 32x32 16x16" href="android-icon-192x192.png"> -->
+
+        <link rel="manifest" href="manifest.json"> 
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="ms-icon-144x144.png"> 
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="preload" href="/fonts/the_dark.ttf" as="font">
+        <link rel="prefetch" href="media.html" />
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/custom.min.css" /> 
+
+        <!-- Christmas Theme -->
+        <style type="text/css">
+
+            canvas {
+                display: block;
+                position: absolute;
+                left:15%;
+                width:84%;
+            }
+
+            @media screen and (max-width:639px){
+                canvas {
+                display: block;
+                position: absolute;
+                top: 60px;
+                left:0%;
+                width:100%;
+                }
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+            <canvas id="canvas"></canvas>
+        <!-- <div class="home-bg"> -->
+            <div class="video-background" id="video-background">
+                <div class="video-foreground">
+                    <img src="images/absinth_bg.jpg" width="100%">
+                     </div>
+            </div>
+
+            <nav>
+                <!-- <iframe seamless src="navbar.html" frameborder="0"></iframe> -->
+                    <ul class="uk-nav uk-nav-default">
+                        <li class="uk-active uk-nav-header nav-item"><a href="#"><font color="#3AB321">Home</font></a></li>
+                        <li class="uk-nav-header nav-item"><a href="media.html">Media</a></li>
+                        <br>
+                        <li class="uk-nav-header nav-item"><a target="_blank" href="https://store.steampowered.com/app/884990/Absinth/">Purchase</a></li>
+                        <li class="uk-nav-header nav-item"><a target="_blank" href="https://drive.google.com/open?id=1wHUeFFBoJxShxONCFFhjMM0XQYIGbFiH">Download OST</a></li>
+                        <li class="uk-nav-header nav-item"><a target="_blank" href="roadmap.html">Roadmap</a></li>
+                    </ul>
+            </nav>
+
+            <!--
+            <div id="countdown" class="uk-flex">
+                <div class="uk-child-width-auto" uk-grid uk-countdown="date: 2018-11-21T23:08:00+00:00">
+                    <div>
+                        <div class="uk-countdown-number uk-countdown-days"></div>
+                        <div class="uk-countdown-label uk-margin-small uk-text-center">Days</div>
+                    </div>
+                    <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-hours"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center">Hours</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-minutes"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center">Minutes</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-seconds"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center">Seconds</div>
+                        </div>
+                    </div>
+            </div>
+            -->
+
+            <!-- Article Flex -->
+            <section id="videos" class="uk-flex uk-margin-top">
+                    <div class="uk-inline-clip uk-transition-toggle home-articles" tabindex="0">
+                        <a target="_blank" href="https://steamcommunity.com/games/884990/announcements/detail/1726470448320268971"> 
+                            <img src="images/absinth_patch2_notes.jpg" alt="Article_Image">
+                            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                <h3>Read the full 0.82 Patch Notes</h3>
+                                <p class="uk-h4 uk-margin-remove"></p>
+                                <a target="_blank" href="https://steamcommunity.com/games/884990/announcements/detail/1726470448320268971" class="article-link">Read more...</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="uk-inline-clip uk-transition-toggle uk-margin-left home-articles" tabindex="0">
+                        <a target="_blank" href="https://steamcommunity.com/games/884990/announcements/detail/1690437771464525978" target="_blank">
+                            <img src="images/absinth_patch1_notes.jpg" alt="Article_Image">
+                            <div class="uk-transition-slide-bottom uk-position-bottom uk-overlay uk-overlay-default">
+                                <h3>Read the full 0.81 Patch Notes</h3>
+                                <p class="uk-h4 uk-margin-remove"></p>
+                                <a target="_blank" href="https://steamcommunity.com/games/884990/announcements/detail/1690437771464525978" class="article-link">Read more...</a>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </section>
+
+        <!-- </div> -->
+        <!-- table -->
+        <section class="uk-container uk-container-small">
+            <table class="uk-table uk-table-small uk-table-divider">
+                <!-- <caption>Game Info</caption> -->
+                <thead>
+                    <tr>
+                        <th class="absinth-font">Game Info</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Platforms : </td>
+                    
+                        <td>PC</td>
+                    </tr>
+                    <tr>
+                        <td>Players : </td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Genre : </td>
+                        <td>Psychological Horror</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <br><br><br>
+        
+        <!-- button section -->
+        <section class="uk-flex uk-flex-center">
+        <ul id="buttons" class="uk-navbar-nav">
+                <li> 
+                    <a id="link2" href="https://store.steampowered.com/app/884990/Absinth/" target="_blank" title="Absinth available now on Steam">
+                        <button class="uk-button uk-button-secondary uk-button-large home-cta" >
+                        <span class="absinth-font" style="color:#FFF; font-size:18pt;">Purchase now</span>
+                        </button> 
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <br><br>
+        <section class="uk-flex uk-flex-center">
+   
+            <ul id="buttons" class="uk-navbar-nav">
+                <li>
+                    <a href="https://store.steampowered.com/app/884990/Absinth" target="_blank">
+                        <button class="uk-button uk-button-secondary uk-margin-right home-cta">
+                            <img src="images/steamLogo.png" title="ABSINTH available soon on STEAM" alt="Link to Absinth STEAM Store page" width="218">
+
+                        </button>
+                    </a>
+                </li>
+                <li> 
+                    <a id="link2" href="https://discord.gg/xEdmZkP" target="_blank" title="Join us on Discord">
+                        <button class="uk-button uk-button-secondary uk-button-large home-cta">
+                        <img src="images/discord-logo.png" alt="Discord Logo">
+                        </button> 
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <br><br>
+        <!-- Social Media Container -->
+        <section class="uk-flex uk-flex-center uk-margin-top">
+            <ul class="uk-thumbnav uk-margin-bottom" uk-margin>
+                <li class="uk-active"><a href="https://www.twitch.tv/directory/game/Absinth" target="_blank"><img src="images/twitch-logo.png" width="50" alt="Twitch Logo"></a></li>
+                <li class="uk-active"><a href="https://www.youtube.com/channel/UCTf9ulhiFScZZFCK138UqRg" target="_blank"><img src="images/youtube-logo.png" width="50" alt="Youtube Logo"></a></li>
+                <li class="uk-active"><a href="https://www.reddit.com/r/AbsinthGame/" target="_blank"><img src="images/reddit-logo.png" width="50" alt="Reddit Logo"></a></li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <footer>
+            <!-- <iframe seamless src="en/footer.html" width="100%" frameborder="0"></iframe> -->
+            <p id ="copyright" class="uk-margin-top uk-position-relative uk-position-center">© 2018. <strong>blackHound Studios GbR</strong> All rights reserved. <a href="imprint.html" target="_blank">Imprint.</a> <a href="privacy.html" target="_blank">Privacy and Cookie Policy (Your Privacy Rights)</a></p>
+            <div class="uk-flex uk-flex-center">
+                <a href="https://www.blackhoundstudios.com"><img class="uk-border-circle uk-height-small" src="images/blackhoundLogo.png" alt="Blackhoundstudios Logo"></a>
+            </div>
+        </footer>
+            
+        <script src="vanilla.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </body>
+</html>

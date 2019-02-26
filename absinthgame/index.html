@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="uk-background-secondary">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Absinth - by blackHound Studios</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <meta name="description" content="Absinth is a psychological Horror-Thriller Experience designed for PC by the indie developer studio blackHound Studios">
+        <meta name="author" content="blackHound Studios">
+
+        <link rel="apple-touch-icon" sizes="57x57" href="en/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="en/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="en/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="en/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="en/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="en/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="en/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="en/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="en/apple-icon-180x180.png">
+        <!-- <link rel="apple-touch-icon" sizes="180x180 152x152 144x144 120x120 114x114 76x76 72x72 60x60 57x57" href="apple-icon-180x180.png"> -->
+
+        <link rel="icon" type="image/png" sizes="192x192" href="en/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="en/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="en/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="en/favicon-16x16.png">
+        
+        <link rel="manifest" href="manifest.json"> 
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="en/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="preload" href="en/fonts/the_dark.ttf" as="font">
+        <link rel="prefetch" href="en/index.html" />
+        <link rel="stylesheet" href="en/css/uikit.min.css" />
+        <link rel="stylesheet" href="en/css/custom.min.css" />
+
+    </head>
+
+    <body class="uk-background-secondary">
+
+        <!-- absinth header -->
+        <div class="uk-cover-container uk-flex mobile-height">
+            <img class="full-width-img" src="en/images/AgeGateBackground.jpg" alt="Absinth_Banner" uk-cover>
+        </div>
+
+        <!-- age input formular -->
+        <section class="uk-flex uk-flex-center uk-position-center">
+            <form id="ageGate" class="uk-form-horizontal">
+                    <h1 id="headline" class="uk-headline">Absinth</h1>
+                    <span style="color:#FFF;">Please enter your birth date:</span>
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="dayText">Day</label>
+                        <div class="uk-form-controls">
+                            <input class="uk-input" id="dayText" type="text" size="2" maxlength="2" placeholder="DD" required>
+                        </div>
+                    </div>
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="monthText">Month</label>
+                        <div class="uk-form-controls">
+                            <input class="uk-input" id="monthText" type="text" size="2" maxlength="2" placeholder="MM" required>
+                        </div>
+                    </div>
+                
+                    <div class="uk-margin">
+                        <label class="uk-form-label" for="yearText">Year</label>
+                        <div class="uk-form-controls">
+                            <input class="uk-input" id="yearText" type="text" size="4" maxlength="4" placeholder="YYYY" required>
+                        </div>
+                    </div>
+                    <span style="color:white">I agree that I am at least 16 years old.</span>
+                    <hr>
+                    <div class="uk-flex uk-flex-center">
+                        <!-- <input id="Enter" type="submit">  -->
+                        <button class="uk-button uk-button-default enter-cta" id="Enter">ENTER</button>
+                        
+                    </div>
+            </form>
+
+            <!-- button section -->
+            <br >
+            <section class="uk-flex uk-flex-center">
+                <a target="_blank" href="https://store.steampowered.com/app/884990/Absinth/"><button class="uk-button uk-button-default" style="background-color:#111; font-weight: bold">PURCHASE</button></a>
+            </section>
+        </section>
+            
+
+
+        <footer id="footer">
+            <!-- <iframe seamless src="en/footer.html" width="100%" frameborder="0"></iframe> -->
+            <p id ="copyright" class="uk-margin-top uk-position-relative uk-position-center">© 2017. <strong>blackHound Studios GbR</strong> All rights reserved. <a href="imprint.html" target="_blank">Imprint.</a> <a href="privacy.html" target="_blank">Privacy and Cookie Policy (Your Privacy Rights)</a></p>
+            <div class="uk-flex uk-flex-center">
+                <img class="uk-border-circle uk-height-small" src="en/images/blackhoundLogo.png" alt="Blackhoundstudios Logo">
+            </div>
+        </footer>
+
+        <script src="en/js/ageGate.min.js"></script>
+
+    </body>
+</html>
